@@ -120,3 +120,106 @@ body{
     display: flex;
     font-size: 15px;
 }
+
+.login{
+    height: var(--tamanho-banner);
+    color: #ef85a6;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.container .card-login{
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+    height: 180px;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid;
+    border-color: #32b9cd;
+    text-align: center;
+}
+
+.campo{
+    margin: 5px;
+}
+
+.campo span{
+    font-weight: 700;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    width: 90px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #ed145b;
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.container .card-cadastro{
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+.simulador{
+    height: var(--tamanho-banner);
+    color: #fff;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
