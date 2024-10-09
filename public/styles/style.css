@@ -12,7 +12,7 @@ body{
 :root {
     --tamanho-header: 80px;
     --tamanho-footer: 65px;
-    --tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
+    --tamanho-banner: calc(60vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
     --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
 }
 
@@ -23,13 +23,17 @@ body{
     border-bottom: 2px solid #32b9cd;
 }
 
+
 .container{
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 .header .container{
+    display: flex;
+    width: 80%;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
     height: 100%;
@@ -37,7 +41,7 @@ body{
 
 .header a {
     text-decoration: none;
-    color: #e3b062;
+    color: white;
 }
 
 .agora{
@@ -53,10 +57,12 @@ body{
     color: #e3b062;
 }
 
+/* #e3b062 */
+
 .titulo{
     color: #32b9cd;
     width: fit-content;
-    font-weight: 800;
+    font-weight: 430;
 }
 
 /* banner */
@@ -90,35 +96,59 @@ body{
 .social {
     background-color: #e5e5e5;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .social .container .boxes{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 70%;
     padding: 30px 0;
+}
+
+.box p{
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .box{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 10px;
 }
 
 .box img{
-    width: 170px;
+    display: flexbox;
+    width: 200px;
+}
+
+.box .imgMissao{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box .paragrafo{
+    display: flex;
 }
 
 /* footer */
 
 .footer{
     background-color: #32b9cd;
-    height: var(--tamanho-footer);
+    height: 200px;
     color: #fff;
     display: flex;
     font-size: 15px;
+}
+
+.footer .version{
+    padding-bottom: 60px;
 }
 
 .login{
@@ -221,5 +251,3 @@ h2{
     justify-content: center;
     align-items: center;
 }
-
-
