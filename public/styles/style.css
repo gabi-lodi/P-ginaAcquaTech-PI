@@ -11,8 +11,8 @@ body{
 
 :root {
     --tamanho-header: 80px;
-    --tamanho-footer: 65px;
-    --tamanho-banner: calc(60vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
+    --tamanho-footer: 200px;
+    --tamanho-banner: calc(70vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
     --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
 }
 
@@ -127,12 +127,6 @@ body{
     width: 200px;
 }
 
-.box .imgMissao{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .box .paragrafo{
     display: flex;
 }
@@ -141,7 +135,7 @@ body{
 
 .footer{
     background-color: #32b9cd;
-    height: 200px;
+    height: var(--tamanho-footer);
     color: #fff;
     display: flex;
     font-size: 15px;
